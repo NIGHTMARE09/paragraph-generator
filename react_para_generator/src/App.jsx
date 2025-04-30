@@ -22,7 +22,7 @@ function App() {
     
     // Add a reasonable limit to prevent UI issues
     if (num > 10000) {
-      setError('Please enter a number less than 5000 for better performance');
+      setError('Please enter a number less than 10000 for better performance');
       return;
     }
     
